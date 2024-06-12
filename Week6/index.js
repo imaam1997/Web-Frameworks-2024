@@ -8,7 +8,7 @@ app.engine(
   ".hbs",
   exphbs.engine({
     extname: ".hbs",
-    defaultLayout: "maSSin",
+    defaultLayout: "main",
     layoutsDir: __dirname + "/views/layouts/",
     partialsDir: __dirname + "/views/partials/",
     helpers: customHelpers,
